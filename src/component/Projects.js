@@ -13,17 +13,17 @@ export const Projects = () => {
                 imgUrl: proj1Img1,
             },
             {
-                title: "Log file Analysis",
+                title: "Log file Analysis1",
                 description: "Log file Analysis Description",
-                imgUrl: proj1Img1,
+                imgUrl: proj1Img2,
             },
             {
-                title: "Log file Analysis",
+                title: "Log file Analysis2",
                 description: "Log file Analysis Description",
-                imgUrl: proj1Img1,
+                imgUrl: proj1Img3,
             },
             {
-                title: "Log file Analysis",
+                title: "Log file Analysis3",
                 description: "Log file Analysis Description",
                 imgUrl: proj1Img1,
             },
@@ -36,7 +36,7 @@ export const Projects = () => {
                         <h2>Projects</h2>
                         <p>Lorem Ipsum</p>
                         <TabContainer id="projects-tabs" defaultActiveKey="first">
-                        <Nav variant="pills" defaultActiveKey="/home">
+                        <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                             <Nav.Item> 
                                 <Nav.Link eventKey="first">Tab one</Nav.Link>
                             </Nav.Item>
@@ -70,7 +70,6 @@ export const Projects = () => {
                     </Row>
                 </Container>
                 <img className="background-image-right" src={colorSharp2}></img>
-
             </section>
         )
 }
